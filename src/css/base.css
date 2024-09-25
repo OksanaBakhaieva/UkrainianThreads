@@ -1,31 +1,67 @@
 :root {
+  --color-primary: #FCF9F9;
+  --background-primary:#000000;
+  --color-accent: #ECD979;
+  --color-secondary:#1C2225;
+  --color-elements: rgba(252, 249, 249, 0.1);
+  --color-elements-modal: rgba(236, 217, 121, 0.2);
+}  
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-
-  color:#FCF9F9;
-  background-color: #000000;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
+  color: var(--color-primary);
+  background-color: var(--background-primary);  
   min-width: 100vw;
   min-height: 100vh;
-  margin: 0;
 }
 
-main {
-  flex-grow: 1;
+/* Styles for Mobile devices */
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  margin: 0 auto;
+  
 }
-main:has(.back-link) {
-  text-align: center;
+
+section{
+  margin:40px 0;
+  padding: 0 20px;
 }
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    
+  }
+}
+
+section{
+  margin:50px 0;
+  padding: 0 32px;
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    
+  }
+}
+
+section{
+  margin:75px 0;
+  padding: 0 50px;
+}
+
+

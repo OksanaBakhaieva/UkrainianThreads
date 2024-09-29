@@ -24,6 +24,9 @@ body {
   min-width: 100vw;
   min-height: 100vh;
 }
+span{
+  color: var(--color-accent);
+}
 
 /* Styles for Mobile devices */
 .container {

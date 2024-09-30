@@ -14,20 +14,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
     <script type="module" crossorigin src="/UkrainainThreads/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/UkrainainThreads/assets/index-CnN812zk.css">
+    <link rel="stylesheet" crossorigin href="/UkrainainThreads/assets/index-MRnGOJoG.css">
   </head>
 
   <body>
     
       <header class="header container">
     
-        <div class="header-leftside"></div>
+        <div class="header-leftside">
             <img class="header-logo" src="../img/logo.svg" width="44" height="40"/>
             <nav class="header-nav">
-                <a class="header-nav-link" href="#" name="about">About us</a>
-                <a class="header-nav-link" href="#" name="collection">Our collectin</a>
-                <a class="header-nav-link" href="#" name="order">Customer order</a>
-                <a class="header-nav-link" href="#" name="testimonials">Testimonials</a>
+                <a class="header-nav-link" href="#about" name="about">About us</a>
+                <a class="header-nav-link" href="#collection" name="collection">Our collection</a>
+                <a class="header-nav-link" href="#order" name="order">Customer order</a>
+                <a class="header-nav-link" href="#testimonials" name="testimonials">Testimonials</a>
             </nav>
         </div>
         <div class="header-rightside">
@@ -85,7 +85,7 @@
 </section>
     
       
-      <section class="about-us container">
+      <section class="about-us container" id="about">
     <div class="about-us-text-wrapper">
         <h2 class="about-us-title">About Us</h2>
         <p class="about-us-text1">The store "Vyshyvanka Vibes" is a place where traditional Ukrainian vyshyvanka comes to life with new zest and style. Our store offers a wide selection of high-quality and authentic embroidery, which combines the elegance of traditional needlework and modern design.</p>
@@ -101,7 +101,7 @@
         
     </div>
 </section>
-      <section class="our-collection container">
+      <section class="our-collection container" id="collection">
     <h2 class="our-collection-title">Our collection</h2>
     <div class="our-collection-wrapper">
         <ul class="our-collection-list">
@@ -168,7 +168,7 @@
         </ul>
     </div>
 </section>
-      <section class="your-order container">
+      <section class="your-order container" id="order">
     <div class="your-order-pic-wrapper">
         <picture class="your-order-pic">
             <source media="(min-width: 1280px)" srcset="../img/order-desc.jpg 1x, ../img/order-desc@2x.jpg 2x" />
@@ -188,7 +188,7 @@
         </form>
     </div>
 </section>
-      <section class="testimonials container">
+      <section class="testimonials container" id="testimonials">
     <h2 class="testimonials">Testimonials</h2>
     <div class="testimonials-wrapper">
         <ul class="testimonials-list">
@@ -211,41 +211,39 @@
     <nav class="footer-nav">
         <ul class="footer-nav-list">
             <li class="footer-nav-item">
-                <a class="footer-nav-link" href="#" name="about">About us</a>
+                <a class="footer-nav-link" href="#about" name="about">About us</a>
             </li>
             <li class="footer-nav-item">
-                <a class="footer-nav-link" href="#" name="collection">Our collectin</a>
+                <a class="footer-nav-link" href="#collection" name="collection">Our collection</a>
             </li>
             <li class="footer-nav-item">
-                <a class="footer-nav-link" href="#" name="order">Customer order</a>
+                <a class="footer-nav-link" href="#order" name="order">Customer order</a>
             </li>
             <li class="footer-nav-item">
-                <a class="footer-nav-link" href="#" name="testimonials">Testimonials</a>
+                <a class="footer-nav-link" href="#testimonials" name="testimonials">Testimonials</a>
             </li>
         </ul>
     </nav>
     <p>A touch of <span>Ukrainian</span> culture in every embroidery</p>
 </footer>
-      <div id="myModal" style="display:none;">
-    <div class="modal-content container">
-        <div class="modal-header">
-            <a class="modal-header-tel" href="tel:380684439426">+380 (68) 443-94-26</a>
-            <button class="modal-close-button" id="closeModal" type="button">
-                <svg class="modal-close-icon" width="18" height="18"></svg>
-                    <use href="../img/symbol-defs.svg#icon-close"></use>
-                </svg>
-            </button>
-        </div>
-        <nav class="modal-nav">
-            <a class="modal-nav-link" href="#" name="about">About us</a>
-            <a class="modal-nav-link" href="#" name="collection">Our collectin</a>
-            <a class="modal-nav-link" href="#" name="order">Customer order</a>
-            <a class="modal-nav-link" href="#" name="testimonials">Testimonials</a>
-        </nav>
-        <img class="modal-image" src="../img/elements-yellow.png"/>
-
+      <div class="modal" id="myModal">
+    <div class="modal-header">
+        <a class="modal-header-tel" href="tel:380684439426">+380 (68) 443-94-26</a>
+        <button class="modal-close-button" id="closeModal" type="button">
+            <svg class="modal-close-icon" width="18" height="18"></svg>
+                <use href="../img/symbol-defs.svg#icon-close"></use>
+            </svg>
+        </button>
     </div>
+    <nav class="modal-nav">
+        <a class="modal-nav-link" href="#about" name="about">About us</a>
+        <a class="modal-nav-link" href="#collection" name="collection">Our collection</a>
+        <a class="modal-nav-link" href="#order" name="order">Customer order</a>
+        <a class="modal-nav-link" href="#testimonials" name="testimonials">Testimonials</a>
+    </nav>
+    <img class="modal-image" src="../img/elements-yellow.png"/>
 </div>
+
 
   </body>
 </html>

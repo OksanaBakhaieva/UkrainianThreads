@@ -1,7 +1,12 @@
-.modal-content{
+/* .myModal {
+    display: none;
+} */
+
+.modal {
     position: fixed;
-    color:var(--color-secondary);
-    background-color: var(--background-primary);
+    color: var(--color-secondary);
+    background-color: var(--color-accent);
+    /* background-image: url("../img/elements-yellow.png"); */
     width: 274px;
     height: 100vh;
 }

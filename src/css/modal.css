@@ -1,18 +1,20 @@
-/* .myModal {
+.toggleModal {
     display: none;
-} */
-
+}
 .modal {
     position: fixed;
+    top: 0;
+    right: 0;
     color: var(--color-secondary);
     background-color: var(--color-accent);
-    /* background-image: url("../img/elements-yellow.png"); */
+    /* background-image: url("../img/elements-grey.png"); */
     width: 274px;
     height: 100vh;
+    padding: 20px 32px 0px 32px;
+    z-index: 2;
 }
 
 .modal-header {
-    margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,30 +23,45 @@
 .modal-header-tel{
     width: 158px;
     height: 38px;
-    border: 1px solid var(--color-elements);
+    border: 2px solid var(--color-elements);
     border-radius: 10px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 12px;
 }
 
+.modal-header-tel:hover {
+    border: 2px solid var(--color-elements-modal);
+}
+
 .modal-close-button {
-    background: 0;
+    background: transparent;
     border: none;
     justify-content: right;
+    stroke: var(--color-secondary);
+    padding: 0;
 } 
 
 .modal-close-icon {
     stroke: var(--color-secondary);
-    fill: var(--color-secondary);
 }
+
+.modal-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+} 
 
 .modal-nav {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: center;
-    position: relative;
-    z-index: 2;
+    justify-content: center;
+    align-items: flex-end;  
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
 }
 
 .modal-nav-link {
@@ -57,19 +74,28 @@
     width: 340px;
     height: 302px;
     bottom: -52px;
+    right: calc(50vw - 170px);
     object-fit: cover;
     z-index: 1;
+    color: var(--color-elements-modal);
 }
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
-    .modal-content{
+    .modal {
         width: 380px;
+    }
+
+    .modal-header-tel {
+        font-size: 14px;
+        width: 193px;
+        height: 48px;
+        border-radius: 12px;
     }
 }
 
 @media only screen and (min-width: 1280px) {
-    .modal-content {
+    .modal {
         display: none;
     }
 }

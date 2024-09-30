@@ -1,12 +1,9 @@
+document.querySelector('.header-modal-toggle').addEventListener('click', toggleModal);
+document.querySelector('.modal-close-button').addEventListener('click', toggleModal);
+document.querySelectorAll('.modal-nav-link').forEach(link => {
+    link.addEventListener('click', toggleModal);
+});
 
-    // const modal = document.getElementById('myModal');
-    // const openButton = document.getElementById('openModal');
-    // const closeButton = document.getElementById('closeModal');
-
-    // openButton.addEventListener('click', function() {
-    //     modal.style.display = 'block';
-    // });
-
-    // closeButton.addEventListener('click', function() {
-    //     modal.style.display = 'none';
-    // });
+function toggleModal (e) {
+    document.querySelector('.modal').classList.toggle('toggleModal');
+}

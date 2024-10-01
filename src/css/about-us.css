@@ -1,1 +1,37 @@
-/* <img class="about-us-elements" src="../img/elements-grey.png" width="545" height="484"> */
+/* <img class="about-us-elements" src=width="545" height="484"> */
+.about-us-container {
+    margin-bottom: 80px;
+    background-image: url("../img/elements-grey.png");
+    background-position: center calc(100% + 62px);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+h2 {
+    font-size: 32px;
+    letter-spacing: -0.03em;
+    font-weight: 400;
+}
+
+.about-us-title {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.about-us-text1 {
+    margin-bottom: 20px;
+    letter-spacing: -0.04em;
+    color: var(--color-paragraph);
+}
+
+.about-us-text2 {
+    margin-bottom: 50px;
+    letter-spacing: -0.04em;
+    color: var(--color-paragraph);
+}   
+
+.about-us-pic {
+    width: 335px;
+    height: 499px;
+}

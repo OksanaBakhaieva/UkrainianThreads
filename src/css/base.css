@@ -5,6 +5,7 @@
   --color-secondary:#1C2225;
   --color-elements: rgba(252, 249, 249, 0.1);
   --color-elements-modal: rgba(236, 217, 121, 0.2);
+  --color-paragraph: rgba(252, 249, 249, 0.4);
 }  
 
 *,
@@ -17,7 +18,7 @@ body {
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   color: var(--color-primary);
   background-color: var(--background-primary);  

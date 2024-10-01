@@ -1,11 +1,12 @@
 /* Styles for Mobile devices */
  
 .header{
-    margin: 20px auto 84px auto;
+    margin: 20px 0 84px 0;
     display: flex;
     justify-content: space-between;   
     align-items: center;
     padding: 0 20px;
+    height: 52px;
 }
 
 .header-nav {

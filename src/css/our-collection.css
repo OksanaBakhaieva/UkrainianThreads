@@ -1,1 +1,10 @@
 /* <img class="our-collection-elements" src="../img/elements-yellow.png" width="895" height="1008"> */
+
+.our-collection-container {
+    margin: 40px 0;
+    padding: 0 20px;
+}
+
+.our-collection-title {
+    margin-bottom: 40px;
+}

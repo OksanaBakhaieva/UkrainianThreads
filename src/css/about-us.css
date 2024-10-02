@@ -1,20 +1,19 @@
-/* <img class="about-us-elements" src=width="545" height="484"> */
-.about-us-container {
-    margin-bottom: 80px;
-    background-image: url("../img/elements-grey.png");
-    background-position: center calc(100% + 62px);
-    background-size: contain;
+.about-us {
+    background-image: url("../img/about-elements-mob.png");
+    /* background-position:  calc(100% + 229px) calc(100% + 62px); */
+    background-position-x: 100%;
+    background-position-y: 100%;
     background-repeat: no-repeat;
+    padding: 40px 20px;
+    background-size: 459px 408px;
     
 }
 
-h2 {
+.about-us-title { 
     font-size: 32px;
     letter-spacing: -0.03em;
-    font-weight: 400;
-}
-
-.about-us-title {
+    font-weight: 500;
+    line-height: 1.38;
     margin-bottom: 40px;
     margin-top: 40px;
 }
@@ -23,6 +22,7 @@ h2 {
     margin-bottom: 20px;
     letter-spacing: -0.04em;
     color: var(--color-paragraph);
+    font-weight: 400;
 }
 
 .about-us-text2 {
@@ -31,7 +31,70 @@ h2 {
     color: var(--color-paragraph);
 }   
 
-.about-us-pic {
-    width: 335px;
-    height: 499px;
+.about-us-img {
+    border-radius: 4px;
+}
+
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+       screen and (min-resolution: 2dppx) and (max-width: 767px),
+       screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .about-us {
+        background-image: url("../img/about-elements-mob2x.png");
+        background-size: 230px 408px;
+    }
+}
+
+
+/* Styles for Tablet devices */
+@media screen and (min-width: 768px) {
+    .about-us {
+        background-image: url("../img/about-elements-tab-desc.png");
+        padding: 50px 32px;
+        background-size: 545px 484px;
+    }
+
+    .about-us-title { 
+        font-size: 44px;
+        line-height: 1.45;
+    }
+
+    .about-us-text1,
+    .about-us-text2 {
+        font-size: 16px;
+    }   
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .about-us {
+        background-image: url('../img/about-elements-tab-desc2x.png');
+        background-size: 545px 484px;
+    }
+}
+
+
+/* Styles for Desktop devices */
+
+@media only screen and (min-width: 1280px) {
+   .about-us-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* justify-content: center;
+        align-items: center; */
+        gap: 50px;
+        /* margin-left: auto;
+        margin-right: auto; */
+        padding: 80px 50px;
+        /* padding-right: 50px; */
+    }
+   
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+screen and (min-resolution: 2dppx) and (min-width: 1280px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 1280px){
+.about-us {
+        background-image: url('../img/about-elements-tab-desc2x.png');
+    }
 }

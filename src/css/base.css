@@ -35,23 +35,22 @@ span {
   min-width: 320px;
   max-width: 375px;
   margin: 0 auto;
-  
 }
 
-section{
+/* section{
   margin: 40px 0;
   padding: 0 20px;
-}
+} */
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .container {
-    max-width: 1279px;
+    min-width: 768px;
   }
-  section{
+  /* section{
   margin:50px 0;
   padding: 0 32px;
-}
+} */
 }
 
 
@@ -61,10 +60,10 @@ section{
   .container {
     min-width: 1280px;
     }
-  section{
+  /* section{
   margin:75px 0;
   padding: 0 50px;
-}  
+}   */
 }
 
 

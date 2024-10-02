@@ -1,12 +1,17 @@
 /* Styles for Mobile devices */
  
-.header{
+.header-container {
+    padding: 0 20px;
+    align-items: center;
     margin: 20px 0 84px 0;
+}
+
+.header {
     display: flex;
     justify-content: space-between;   
     align-items: center;
-    padding: 0 20px;
-    height: 52px;
+   
+    padding: 0;
 }
 
 .header-nav {
@@ -29,9 +34,9 @@
     background: transparent;
 }
 
+
 .header-modal-toggle-icon{
     stroke: var(--color-accent);
-    background: transparent;
 }
 
 /* Styles for Tablet devices */

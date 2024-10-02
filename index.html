@@ -14,12 +14,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
     <script defer src="./main.js"></script>
-    <link rel="stylesheet" crossorigin href="/UkrainainThreads/assets/index-VABOm1yj.css">
+    <link rel="stylesheet" crossorigin href="/UkrainainThreads/assets/index-DehHZETK.css">
   </head>
 
   <body>
     
-      <header class="container">
+      <header class="header-container">
     <div class="header">
         <div class="header-left-wrapper">
             <img class="header-logo" src="../img/logo.svg" width="44" height="40"/>
@@ -56,8 +56,8 @@
                 </li>
             </ul>
             <button class="header-modal-toggle" type="button" id="modalToggle">
-                    <svg class="header-modal-toggle-icon" width="36" height="24">
-                        <use href="../img/symbol-defs.svg#icon-modal"></use>
+                    <svg class="header-modal-toggle-icon" width="36" height="24" preserveAspectRatio>
+                        <use  href="../img/symbol-defs.svg#icon-modal"></use>
                     </svg>
             </button>
             
@@ -110,23 +110,24 @@
 </section>
     
       
-      <section class="about-us-container" id="about">
-    <div class="about-us-text-wrapper">
-        <h2 class="about-us-title">About Us</h2>
-        <p class="about-us-text1">The store "Vyshyvanka Vibes" is a place where traditional Ukrainian vyshyvanka comes to life with new zest and style. Our store offers a wide selection of high-quality and authentic embroidery, which combines the elegance of traditional needlework and modern design.</p>
-        <p class="about-us-text2">In "Vyshyvanka Vibes" you will find various models of embroidery, from classic to modern, corresponding to the latest fashion trends. Our embroidery is made using natural fabrics and is embroidered by highly qualified craftsmen who convey the beauty of Ukrainian culture in every detail.We believe that vyshyvanka is not just clothing, but a symbol of national pride, the heritage of our ancestors and a way of expressing one's individuality. Each embroidery from "Vyshyvanka Vibes" has its own unique history and symbolism, which gives it a special meaning.</p>
-    </div>
-    <div class="about-us-picture-wrapper">
-        <picture class="about-us-pic">
-            <source media="(min-width: 1280px)" srcset="../img/about-desc.jpg 1x, ../img/about-desc@2x.jpg 2x" />
-            <source media="(min-width: 768px)" srcset="../img/about-tabl.jpg 1x, ../img/about-tabl@2x.jpg 2x" />
-            <source media="(min-width: 375px)" srcset="../img/about-mob.jpg 1x, ../img/about-mob@2x.jpg 2x" />
-            <img src="../img/about-desc.jpg" alt="vyshyvanka" width="594"/>
-        </picture>
-        
+      <section class="about-us" id="about">
+    <div class="about-us-container container">
+        <div class="about-us-text-wrapper">
+            <h2 class="about-us-title">About Us</h2>
+            <p class="about-us-text1">The store "Vyshyvanka Vibes" is a place where traditional Ukrainian vyshyvanka comes to life with new zest and style. Our store offers a wide selection of high-quality and authentic embroidery, which combines the elegance of traditional needlework and modern design.</p>
+            <p class="about-us-text2">In "Vyshyvanka Vibes" you will find various models of embroidery, from classic to modern, corresponding to the latest fashion trends. Our embroidery is made using natural fabrics and is embroidered by highly qualified craftsmen who convey the beauty of Ukrainian culture in every detail.We believe that vyshyvanka is not just clothing, but a symbol of national pride, the heritage of our ancestors and a way of expressing one's individuality. Each embroidery from "Vyshyvanka Vibes" has its own unique history and symbolism, which gives it a special meaning.</p>
+        </div>
+        <img class="about-us-img"
+            srcset="../img/about-mob.jpg 335w, ../img/about-mob@2x.jpg 670w, ../img/about-tabl.jpg 704w, ../img/about-tabl@2x.jpg 1408w, ../img/about-desc.jpg 594w, ../img/about-desc@2x.jpg 1188w"
+            sizes="(min-width: 1280px) 594px,  
+                    (min-width: 768px) 704px,
+                    (min-width: 375px) 335px"
+            src="../img/about-mob.jpg" 
+            alt="vyshyvanka"
+        />
     </div>
 </section>
-      <section class="our-collection container" id="collection">
+      <section class="our-collection-container container" id="collection">
     <h2 class="our-collection-title">Our collection</h2>
     <div class="our-collection-wrapper">
         <ul class="our-collection-list">

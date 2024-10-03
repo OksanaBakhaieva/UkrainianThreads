@@ -10,18 +10,22 @@
 }
 
 .hero-order {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
-    border: 2px solid var(--color-elements);
-    border-radius: 10px;
+    align-items: center;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    border-radius: 15px;
     background-color: transparent;
     margin-bottom: 40px;
+    width: 168px;
+    height: 49px;
    
 }
 
-.hero-order:hover {
-    border: var(--color-accent);
-    background-color: var(--background-primary);
+.hero-order:hover,
+.hero-order:focus {
+    border: var(--yellow);
+    background-color: var(--black);
 }
 
 .hero-order-link {
@@ -33,7 +37,7 @@
 }
 
 .hero-order-icon {
-    fill: var(--color-accent);
+    fill: var(--yellow);
     margin-left: 10px;
     width: 26px;
     height: 10px;

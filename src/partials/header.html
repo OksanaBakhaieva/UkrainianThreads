@@ -1,7 +1,7 @@
-<header class="header-container">
-    <div class="header">
+<header class="header-container container">
+   
         <div class="header-left-wrapper">
-            <img class="header-logo" src="../img/logo.svg" width="44" height="40"/>
+            <img class="header-logo" src="../img/logo.svg" width="44" height="40" alt="logo"/>
             <nav class="header-nav">
                 <a class="header-nav-link" href="#about" name="about">About us</a>
                 <a class="header-nav-link" href="#collection" name="collection">Our collection</a>
@@ -10,37 +10,40 @@
             </nav>
         </div>
         <div class="header-right-wrapper">
-            <a class="header-tel" href="tel:380684439426">+380 (68) 443-94-26</a>
+            <address>
+                <a class="header-tel" href="tel:380684439426">+380 (68) 443-94-26</a>
+            </address>
+            
             <ul class="header-socials">
                 <li>
                     <a class="header-socials-link" href="https://www.facebook.com/goITclub/" target="_blank">
                         <svg width="44" height="44">
-                            <use href="../img/symbol-defs.svg#icon-facebook"></use>
+                            <use href="../img/icons.svg#icon-facebook"></use>
                         </svg>
                     </a>
                 </li>
                 <li>
                     <a class="header-socials-link" href="https://www.instagram.com/goitclub/" target="_blank">
                         <svg width="44" height="44">
-                            <use href="../img/symbol-defs.svg#icon-instagram"></use>
+                            <use href="../img/icons.svg#icon-instagram"></use>
                         </svg>
                     </a>
                 </li>
                 <li>
                     <a class="header-socials-link" href="https://www.youtube.com/c/GoIT" target="_blank">
                         <svg width="44" height="44">
-                            <use href="../img/symbol-defs.svg#icon-youtube"></use>
+                            <use href="../img/icons.svg#icon-youtube"></use>
                         </svg>
                     </a>
                 </li>
             </ul>
-            <button class="header-modal-toggle" type="button" id="modalToggle">
-                    <svg class="header-modal-toggle-icon" width="36" height="24" preserveAspectRatio>
-                        <use  href="../img/symbol-defs.svg#icon-modal"></use>
+            <button class="modal-open-button" type="button" id="modalOpen" aria-label="modal-open-button">
+                    <svg class="modal-open-icon" width="36" height="24">
+                        <use  href="../img/icons.svg#icon-modal"></use>
                     </svg>
             </button>
             
-        </div>
+       
     </div>
     
    

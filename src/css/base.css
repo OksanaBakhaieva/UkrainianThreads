@@ -1,32 +1,28 @@
 :root {
-  --color-primary: #FCF9F9;
-  --background-primary:#000000;
-  --color-accent: #ECD979;
-  --color-secondary:#1C2225;
-  --color-elements: rgba(252, 249, 249, 0.1);
-  --color-elements-modal: rgba(236, 217, 121, 0.2);
-  --color-paragraph: rgba(252, 249, 249, 0.4);
-}  
+  --black: #1c2225;
+  --yellow: #ecd979;
+  --white: #fcf9f9;
+  --hard-black: #111111;
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+  --font-family: "Manrope", sans-serif;
+  --second-family: "DM Sans", sans-serif;
 }
+
 
 body {
-  font-family: "Manrope", sans-serif;
+  font-family: var(--font-family), var(--second-family);
   font-optical-sizing: auto;
+  font-weight: 400;
   font-style: normal;
   font-size: 14px;
-  font-weight: 200;
-  color: var(--color-primary);
-  background-color: var(--background-primary);  
+  color: var(--white);
   min-width: 100vw;
   min-height: 100vh;
+  background-color: var(--black);
 }
+
 span {
-  color: var(--color-accent);
+  color: var(--yellow);
 }
 
 /* Styles for Mobile devices */
@@ -37,20 +33,21 @@ span {
   margin: 0 auto;
 }
 
-/* section{
-  margin: 40px 0;
+.section{
+  margin: 40px auto;
   padding: 0 20px;
-} */
+}
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .container {
     min-width: 768px;
   }
-  /* section{
+
+  .section{
   margin:50px 0;
   padding: 0 32px;
-} */
+}
 }
 
 
@@ -59,11 +56,12 @@ span {
 @media only screen and (min-width: 1280px) {
   .container {
     min-width: 1280px;
-    }
-  /* section{
+  }
+
+  .section{
   margin:75px 0;
   padding: 0 50px;
-}   */
+}  
 }
 
 

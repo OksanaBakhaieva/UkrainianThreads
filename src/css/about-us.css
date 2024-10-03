@@ -1,19 +1,17 @@
 .about-us {
-    background-image: url("../img/about-elements-mob.png");
-    /* background-position:  calc(100% + 229px) calc(100% + 62px); */
-    background-position-x: 100%;
-    background-position-y: 100%;
+    background-image: url("../img/about-us/about-elements-mob.png");
+    background-position: bottom 0 right 0;
     background-repeat: no-repeat;
     padding: 40px 20px;
     background-size: 459px 408px;
-    
 }
 
-.about-us-title { 
-    font-size: 32px;
-    letter-spacing: -0.03em;
+.about-us-title {
     font-weight: 500;
-    line-height: 1.38;
+    font-size: 32px;
+    line-height: 1.37;
+    letter-spacing: -0.03em;
+    color: var(--white); 
     margin-bottom: 40px;
     margin-top: 40px;
 }
@@ -21,14 +19,13 @@
 .about-us-text1 {
     margin-bottom: 20px;
     letter-spacing: -0.04em;
-    color: var(--color-paragraph);
-    font-weight: 400;
+    color: rgba(252, 249, 249, 0.4);
 }
 
 .about-us-text2 {
     margin-bottom: 50px;
     letter-spacing: -0.04em;
-    color: var(--color-paragraph);
+    color: rgba(252, 249, 249, 0.4);
 }   
 
 .about-us-img {
@@ -39,7 +36,7 @@
        screen and (min-resolution: 2dppx) and (max-width: 767px),
        screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     .about-us {
-        background-image: url("../img/about-elements-mob2x.png");
+        background-image: url("../img/about-us/about-elements-mob2x.png");
         background-size: 230px 408px;
     }
 }
@@ -48,7 +45,7 @@
 /* Styles for Tablet devices */
 @media screen and (min-width: 768px) {
     .about-us {
-        background-image: url("../img/about-elements-tab-desc.png");
+        background-image: url("../img/about-us/about-elements-tab-desc.png");
         padding: 50px 32px;
         background-size: 545px 484px;
     }
@@ -68,7 +65,7 @@
 screen and (min-resolution: 2dppx) and (min-width: 768px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     .about-us {
-        background-image: url('../img/about-elements-tab-desc2x.png');
+        background-image: url('../img/about-us/about-elements-tab-desc2x.png');
         background-size: 545px 484px;
     }
 }
@@ -95,6 +92,6 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 screen and (min-resolution: 2dppx) and (min-width: 1280px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1280px){
 .about-us {
-        background-image: url('../img/about-elements-tab-desc2x.png');
+        background-image: url('../img/about-us/about-elements-tab-desc2x.png');
     }
 }

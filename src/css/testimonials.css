@@ -1,0 +1,118 @@
+#testimonials {
+    padding-bottom: 80px;
+}
+
+.testimonials-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials-item:not(:first-child) {
+    display: none;
+}
+
+.testimonials-item {
+    margin-top: 24px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    border-radius: 4px;
+    padding: 54px 18px 18px 18px;
+    width: 335px;
+    height: 243px;
+    position: relative;
+}
+
+.testimonials-avatar{
+    display: block;
+    border-radius: 50%;
+    box-shadow: 0px 1px 4px 0px rgba(16, 24, 40, 0.06);
+    border: none;
+    position: absolute;
+    left: calc(50% - 36px);
+    top: -24px;
+    width: 64px;
+    height: 64px;
+}
+
+.testimonials-item-name {
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.testimonials-text {
+    width: 291px;
+    height: 133px;
+    color: rgba(252, 249, 249, 0.4);
+    text-align: center;
+    line-height: 1.4;
+}
+
+@media only screen and (min-width: 768px) {
+    #testimonials {
+        padding-bottom: 100px;
+    }
+    .testimonials-list {
+        justify-content: space-between;
+        align-items: center;
+        gap: 32px;
+    }
+    .testimonials-item:nth-child(2) {
+        display: block;
+    }
+    .testimonials-item {
+        border: 1px solid rgba(252, 249, 249, 0.1);
+        border-radius: 4px;
+        padding: 54px 18px 18px 18px;
+        width: 336px;
+        height: 286px;
+        position: relative;
+    }
+    .testimonials-text {
+        font-size: 16px;
+        width: 300px;
+        height: 176px;
+        line-height: 1.4;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    #testimonials {
+        padding-bottom: 150px;
+    }
+    .testimonials-list {
+        gap: 26px;
+    }
+    .testimonials-item:nth-child(3) {
+        display: block;
+    }
+    .testimonials-avatar{
+        display: block;
+        border-radius: 50%;
+        box-shadow: 0px 1px 4px 0px rgba(16, 24, 40, 0.06);
+        border: none;
+        position: absolute;
+        left: calc(50% - 36px);
+        top: -24px;
+        width: 64px;
+        height: 64px;
+    }
+    
+    .testimonials-item-name {
+        text-align: center;
+        margin-bottom: 8px;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+    
+    .testimonials-text {
+        width: 291px;
+        height: 133px;
+        color: rgba(252, 249, 249, 0.4);
+        text-align: center;
+        line-height: 1.4;
+    }
+}

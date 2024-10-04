@@ -1,12 +1,12 @@
-.about-us {
-    background-image: url("../img/about-us/about-elements-mob.png");
+.about {
+    background-image: url("../img/about/about-elements-mob.png");
     background-position: bottom 0 right 0;
     background-repeat: no-repeat;
     padding: 40px 20px;
     background-size: 459px 408px;
 }
 
-.about-us-title {
+.about-title {
     font-weight: 500;
     font-size: 32px;
     line-height: 1.37;
@@ -16,27 +16,27 @@
     margin-top: 40px;
 }
 
-.about-us-text1 {
+.about-text1 {
     margin-bottom: 20px;
     letter-spacing: -0.04em;
     color: rgba(252, 249, 249, 0.4);
 }
 
-.about-us-text2 {
+.about-text2 {
     margin-bottom: 50px;
     letter-spacing: -0.04em;
     color: rgba(252, 249, 249, 0.4);
 }   
 
-.about-us-img {
+.about-img {
     border-radius: 4px;
 }
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
        screen and (min-resolution: 2dppx) and (max-width: 767px),
        screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
-    .about-us {
-        background-image: url("../img/about-us/about-elements-mob2x.png");
+    .about {
+        background-image: url("../img/about/about-elements-mob2x.png");
         background-size: 230px 408px;
     }
 }
@@ -44,19 +44,19 @@
 
 /* Styles for Tablet devices */
 @media screen and (min-width: 768px) {
-    .about-us {
-        background-image: url("../img/about-us/about-elements-tab-desc.png");
+    .about {
+        background-image: url("../img/about/about-elements-tab-desc.png");
         padding: 50px 32px;
         background-size: 545px 484px;
     }
 
-    .about-us-title { 
+    .about-title { 
         font-size: 44px;
         line-height: 1.45;
     }
 
-    .about-us-text1,
-    .about-us-text2 {
+    .about-text1,
+    .about-text2 {
         font-size: 16px;
     }   
 }
@@ -64,8 +64,8 @@
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
 screen and (min-resolution: 2dppx) and (min-width: 768px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
-    .about-us {
-        background-image: url('../img/about-us/about-elements-tab-desc2x.png');
+    .about {
+        background-image: url('../img/about/about-elements-tab-desc2x.png');
         background-size: 545px 484px;
     }
 }
@@ -74,7 +74,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 /* Styles for Desktop devices */
 
 @media only screen and (min-width: 1280px) {
-   .about-us-container {
+   .about-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         /* justify-content: center;
@@ -91,7 +91,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
 screen and (min-resolution: 2dppx) and (min-width: 1280px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1280px){
-.about-us {
-        background-image: url('../img/about-us/about-elements-tab-desc2x.png');
+.about {
+        background-image: url('../img/about/about-elements-tab-desc2x.png');
     }
 }

@@ -1,0 +1,12 @@
+/* <img src="../img/icons.svg#icon-arrow" alt="icon-arrow"/>  */
+
+.background-image {
+    height: 500px;
+    background-image: url("../img/order/order-fon-mob.jpg");
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-size: auto;
+    background-position: center center;
+    margin-bottom: 80px;
+}
+

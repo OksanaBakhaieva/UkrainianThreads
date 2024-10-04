@@ -11,9 +11,9 @@
 /* Sections style */
 @import url('./header.css');
 @import url('./hero.css');
-@import url('./about-us.css');
-@import url('./our-collection.css');
-@import url('./your-order.css');
+@import url('./about.css');
+@import url('./collection.css');
+@import url('./order.css');
 @import url('./testimonials.css');
 @import url('./footer.css');
 @import url('./modal.css');

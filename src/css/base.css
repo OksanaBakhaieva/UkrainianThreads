@@ -19,6 +19,7 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   background-color: var(--black);
+  margin: 0;
 }
 
 span {
@@ -26,15 +27,13 @@ span {
 }
 
 /* Styles for Mobile devices */
+
 .container {
   width: 100%;
   min-width: 320px;
   max-width: 375px;
-  margin: 0 auto;
-}
-
-.section{
-  margin: 40px auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0 20px;
 }
 
@@ -42,26 +41,16 @@ span {
 @media only screen and (min-width: 768px) {
   .container {
     min-width: 768px;
-  }
-
-  .section{
-  margin:50px 0;
-  padding: 0 32px;
+    padding: 0 32px;
 }
 }
-
-
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
   .container {
     min-width: 1280px;
+    padding: 0 50px;
   }
-
-  .section{
-  margin:75px 0;
-  padding: 0 50px;
-}  
 }
 
 

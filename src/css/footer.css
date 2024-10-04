@@ -1,0 +1,11 @@
+.footer-container {
+    padding-top: 40px;
+    background-image: url("../img/elements-mob.png");
+    background-repeat: no-repeat;
+    background-position: center top calc(100% + 200px);
+    background-size: auto;
+    background-origin: border-box;
+    height: 637px;
+    background-clip: border-box;
+
+} 

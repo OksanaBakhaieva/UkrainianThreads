@@ -1,14 +1,74 @@
-/* <img class="our-collection-elements" src="../img/elements-yellow.png" width="895" height="1008"> */
-
-.collection-container {
-    margin: 40px 0;
-    padding: 0 20px;
-}
-
 .collection-title {
-    margin-bottom: 40px;
+    text-align: center;
+    
+}
+.collection-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/collection/collection-elements-mob.png");
+    background-repeat: no-repeat;
+    background-position: left -283px top -316px;
+    background-origin: padding-box;
+    background-size: auto;
 }
 
-/* .our-collection-wrapper {
+.collection-product-name {
+    margin-top: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
 
-} */
+.collection-product-price {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .collection-list{
+        gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url("../img/collection/collection-elements-tab.png");
+        background-repeat: no-repeat;
+        background-position: left -654px top -271px;
+        background-origin: padding-box;
+        background-size: auto;
+    }
+    .collection-item {
+        width: 100%;
+        max-width: 342px;
+        height: 492px;
+    }
+    .collection-product-name{
+       font-size: 18px;
+    }
+    .collection-list:first-child .collection-item .collection-product-name {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .collection-product-price {
+        display: block;
+        font-size: 18px;
+        letter-spacing: 0.05em;
+        color: rgba(252, 249, 249, 0.4);
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+   .collection-list{
+        gap: 40px 20px;
+        background-image: url("../img/collection/collection-elements-desc.png");
+        background-repeat: no-repeat;
+        background-position: left -283px top -316px;
+        background-origin: padding-box;
+        background-size: auto;
+    } 
+    .collection-item {
+        max-width: 380px;
+        height: 492px;
+    }
+}

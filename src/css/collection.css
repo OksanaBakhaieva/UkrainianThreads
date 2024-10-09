@@ -2,6 +2,9 @@
     text-align: center;
     
 }
+.collection-section {
+    padding-top: 18px;
+}
 .collection-list {
     display: flex;
     flex-wrap: wrap;
@@ -27,6 +30,9 @@
 }
 
 @media only screen and (min-width: 768px) {
+    .collection-section {
+        padding-top: 50px;
+    }
     .collection-list{
         gap: 20px;
         justify-content: space-between;
@@ -59,6 +65,9 @@
 }
 
 @media only screen and (min-width: 1280px) {
+    .collection-section {
+        padding-top: 70px;
+    }
    .collection-list{
         gap: 40px 20px;
         background-image: url("../img/collection/collection-elements-desc.png");

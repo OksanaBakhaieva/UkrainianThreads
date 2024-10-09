@@ -51,9 +51,22 @@
   }
 
   .header-socials-link {
-    stroke: var(--white);
+    display: block;
+    fill: var(--white);
+    opacity: 0.8;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    border-radius: 15px;
+    padding: 8px;
+    width: 44px;
+    height: 44px;
+    background: rgba(252, 249, 249, 0.1);
   }
-
+  .header-socials-link:hover,
+  .header-socials-link:focus{
+    opacity: 1;
+    border-color: var(--yellow);
+    background: transparent;
+  }
   .modal-open-button {
     background: transparent;
   }

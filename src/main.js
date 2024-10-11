@@ -5,5 +5,6 @@ document.querySelectorAll('.modal-nav-link').forEach(link => {
 });
 
 function toggleModal (e) {
+    e.preventDefault();
     document.querySelector('.modal').classList.toggle('toggleModal');
 }

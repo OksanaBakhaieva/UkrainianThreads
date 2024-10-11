@@ -60,6 +60,7 @@
     width: 44px;
     height: 44px;
     background: rgba(252, 249, 249, 0.1);
+    transition: all 250ms;
   }
   .header-socials-link:hover,
   .header-socials-link:focus{
